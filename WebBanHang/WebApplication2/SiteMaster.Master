@@ -5,15 +5,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
- 
-    
+
+
 </head>
 <body>
     <form id="form1" runat="server">
         <asp:ContentPlaceHolder ID="head" runat="server">
-            
-    <asp:Literal ID="Literal2" runat="server">
-            <link href="css/trangchu.css" rel="stylesheet" type="text/css" />
+       
+            <link href="css/trangchu.css?v=<?=time();?>" rel="stylesheet" type="text/css" />
              <div id = "header">
             <div id = "banner">
                 <div id = logo></div>
@@ -34,7 +33,7 @@
                 <ul>
                     <li class="menutop"><a href="Default.aspx">TRANG CHỦ</a></li>
                     <li><a href="Gioithieu.aspx">GIỚI THIỆU</a></li>
-                    <li><a href="#">BST MÙA XUÂN</a></li>
+                    <li><a href="BstMuaXuan.aspx">BST MÙA XUÂN</a></li>
                     <li><a href="#">BST MÙA HÈ</a></li>
                     <li><a href="#">BST MÙA THU</a></li>
                     <li><a href="#">BST MÙA ĐÔNG</a></li>
@@ -45,18 +44,17 @@
             </div>
         </div>
 
-    </asp:Literal>
+  
         </asp:ContentPlaceHolder>
-    <div>
-     
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
-          <div id="root-footer">
-            
-        <asp:ContentPlaceHolder ID="ContentmyFooter" runat="server">
-         <asp:Literal ID="Literal1" runat="server">
+        <div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="root-footer">
+
+            <asp:ContentPlaceHolder ID="ContentmyFooter" runat="server">
+                <asp:Literal ID="Literal1" runat="server">
             <link href="css/trangchu.css" rel="stylesheet" type="text/css" />
             
                      <%-- footer --%>
@@ -138,9 +136,9 @@
 Email: viettrung666@gmail.com - Website: www.nhaphangquangchau.com  |  Thiết kế website - Xây dựng website bởi Tất Thành</p>
             </div>
 
-    </asp:Literal>
-        </asp:ContentPlaceHolder>
-    </div>
+                </asp:Literal>
+            </asp:ContentPlaceHolder>
+        </div>
     </form>
 </body>
 </html>

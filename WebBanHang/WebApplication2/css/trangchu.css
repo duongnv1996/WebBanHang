@@ -11,7 +11,7 @@ form {
 
 #header
 {
-    width: 50%;
+    width: 1000px;
     height: 90px;
     margin:auto;
     background-color: white;
@@ -79,7 +79,7 @@ form {
 #menumain
 {
     
-   width:50%;
+   width:1000px;
     height: 40px;
     margin: auto;
 }
@@ -117,14 +117,7 @@ form {
     transform: skewX(175deg);
     background-color: #ad1040;
 }
-#main
-{
-    margin:auto;
-    width: 100%;
-    min-height: 100%;
-    display:block;
-    background-image: url(../image/mainbody.png);
-}
+
 #photomain
 {
     display: flex;
@@ -227,13 +220,7 @@ form {
     height: 364px;
     background-color: white;
 }
-.sp1
-{
-    margin-left: 20px;
-    width: 184px;
-    height: 364px;
-    background-color: white;
-}
+
 .anhsp
 {
     margin: 3px;
