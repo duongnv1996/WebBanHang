@@ -1,0 +1,473 @@
+form {
+    text-align: center;
+}
+
+* {
+    margin: 0; /*reset css*/
+    font-family: Arial;
+    text-align: center;
+}
+
+#header {
+    width: 1000px;
+    height: 90px;
+    margin: auto;
+    background-color: white;
+}
+
+#banner {
+    margin: auto;
+    width:  1000px;
+    height: 90px;
+}
+
+#logo {
+    /*~/image/logo.png*/
+    width: 372px;
+    height: 62px;
+    background-image: url(../image/logo.png);
+    margin-top: 14px;
+    float: left;
+}
+
+#infomenu {
+    float: right;
+}
+
+    #infomenu ul {
+        width: 310px;
+        height: 27px;
+        display: flex;
+        background-image: url(../image/Group7.png);
+        color: black;
+    }
+
+        #infomenu ul li {
+            display: block;
+            text-align: center;
+            line-height: 25px;
+            margin-left: 11px;
+            margin-right: 25px;
+            list-style-type: none;
+        }
+
+            #infomenu ul li a {
+                text-decoration: none;
+                font-size: 14px;
+                color: black;
+            }
+
+#hotroduongdaynong {
+    width: 320px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-image: url(../image/hotroduongdaynong.png);
+}
+
+#menu {
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background-image: url(../image/main.png);
+}
+
+#menumain {
+    width: 1000px;
+    height: 40px;
+    margin: auto;
+}
+
+    #menumain ul {
+        margin: auto;
+        display: flex;
+    }
+
+        #menumain ul li {
+            transform: skewX(150deg);
+            border-right-style: solid;
+            border-right-color: #c02f5b;
+            width: 100px;
+            height: 40px;
+            list-style-type: none;
+        }
+
+            #menumain ul li a {
+                transform: skewX(210deg);
+                display: block;
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                line-height: 40px;
+                font-size: 11px;
+            }
+
+.menutop {
+    border-left-style: solid;
+    border-left-color: #c02f5b;
+}
+
+#menumain ul li :hover {
+    transform: skewX(175deg);
+    background-color: #ad1040;
+}
+
+#main {
+    width: 100%;
+    min-height: 100%;
+    background-image: url(../image/mainbody.png);
+}
+
+#photomain {
+    display: flex;
+    justify-content: space-between;
+    margin: 13px;
+    padding-top: 13px;
+    width: 1000px;
+    height: 378px;
+    margin: auto;
+    padding-bottom: 8px;
+}
+
+#anhmain21 {
+    width: 506px;
+    height: 238px;
+}
+
+#anhmain22 {
+    display: flex;
+    margin-top: 9px;
+    width: 506px;
+}
+
+#anhmain222 {
+    margin-left: 9px;
+}
+
+#tinmoi {
+    margin: auto;
+    width: 1000px;
+    height: 47px;
+    background-image: url(../image/tinmoi.png);
+}
+
+.sanphamnoibat {
+    background-image: url(../image/sanphamnoibat.png);
+    width: 1000px;
+    height: 35px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#sanphamnoibat1 {
+    background-image: url(../image/sanphambanchay.png);
+    width: 1000px;
+    height: 35px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#sanphamnoibat2 {
+    background-image: url(../image/sanphambandaxem.png);
+    width: 1000px;
+    height: 35px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#xemthemsanphamnoibat {
+    float: right;
+    margin-top: 10px;
+}
+
+    #xemthemsanphamnoibat a {
+        text-decoration: none;
+        color: #004b91;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+.listsanphamnoibat {
+    width: 1000px;
+    margin: auto;
+    height: 745px;
+    display: flex;
+    flex-direction: column;
+}
+
+.listsanphamnoibat1 {
+    width: 1000px;
+    margin: auto;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+}
+
+.giabanle {
+    display: flex;
+}
+
+.sanphamnoibathang1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sp {
+    width: 184px;
+    height: 364px;
+    background-color: white;
+}
+
+.llRowItem {
+    margin-top: 20px;
+    display: flex;
+}
+
+.item-shop {
+    margin-right: 20px;
+    width: 184px;
+    height: 364px;
+    background-color: white;
+}
+
+.anhsp {
+    margin: 3px;
+    width: 178px;
+    height: 239px;
+}
+
+.tensanpham {
+    font-size: 12px;
+    font-weight: bold;
+    color: #004b91;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.infosanpham {
+    font-size: 12px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.infosanpham1 {
+    font-size: 12px;
+    color: #bf2151;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.buttonsanpham {
+    width: 76px;
+    height: 21px;
+    background-image: url(../image/xemnhanhtrang.png);
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#root-footer {
+    background-image: url(../image/shape_footer.png);
+    background-repeat: repeat;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+#bot {
+    margin: auto;
+    background-image: url(../image/bot.png);
+    width: 1000px;
+    height: 266px;
+}
+
+#menubot {
+    padding-left: 0px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+    #menubot ul {
+        padding-left: 0px;
+        width: 1000px;
+        margin-left: 0px;
+        display: flex;
+    }
+
+        #menubot ul li {
+            border-bottom: solid;
+            border-color: #c02f5b;
+            width: 111px;
+            list-style-type: none;
+        }
+
+            #menubot ul li a {
+                display: block;
+                text-align: center;
+                line-height: 40px;
+                font-size: 12px;
+                color: #bf2151;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+.libot {
+    border-left: 1px solid;
+}
+
+#infobot {
+    width: 1000px;
+    height: 90px;
+    margin: auto;
+}
+
+.textbot1 {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.textbot2 {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#menufooter1 {
+    width: 1000px;
+    padding-left: 15px;
+    display: flex;
+}
+
+    #menufooter1 li {
+        margin-top: 15px;
+        width: 250px;
+        list-style-type: none;
+    }
+
+        #menufooter1 li a {
+            line-height: 30px;
+            display: block;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+#menufooter {
+    display: flex;
+}
+
+.menufooter2 {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+    .menufooter2 li {
+        width: 220px;
+        color: #ffa2be;
+    }
+
+        .menufooter2 li a {
+            width: 150px;
+            line-height: 20px;
+            font-size: 12px;
+            color: #ffa2be;
+            text-decoration: none;
+        }
+
+#contact1 {
+    display: flex;
+}
+
+    #contact1 ul {
+        margin-left: 15px;
+    }
+
+        #contact1 ul li {
+            display: block;
+            height: 40px;
+            width: 70px;
+        }
+
+            #contact1 ul li a {
+                text-align: center;
+                line-height: 40px;
+            }
+
+#contact2 {
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#contact3 {
+    margin-left: 60px;
+    margin-top: 25px;
+    width: 170px;
+    justify-content: space-between;
+    display: flex;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+
+#bst-mua-xuan {
+    background-image: url(../image/bstmuaxuan.png);
+     width: 790px;
+    height: 29px;
+    }
+#bst-mua-he {
+    background-image: url(../image/bstmuahe.png);
+     width: 790px;
+    height: 29px;
+    }
+#bst-mua-thu {
+    background-image: url(../image/bstmuathu.png);
+     width: 790px;
+    height: 29px;
+    }
+#bst-mua-dong {
+    background-image: url(../image/bstmuadong.png);
+     width: 790px;
+    height: 29px;
+    }
+#phukien-thoitrang {
+    background-image: url(../image/phukienthoitrang.png);
+     width: 790px;
+    height: 29px;
+    }
+.dv-xemtatca {
+    height: 35px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.a-xemtatca {
+    text-align: end;
+    color:black;
+}
+
+.llRootRowItem {
+    width: 1000px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+li a {
+    text-align:start;
+}
+#info-bstmuaxuan
+{
+    background-image: url(../image/title_sp.png);
+    width: 1000px;
+    height: 47px;
+}

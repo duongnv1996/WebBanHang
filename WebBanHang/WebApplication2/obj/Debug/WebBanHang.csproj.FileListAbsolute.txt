@@ -2,3 +2,8 @@ C:\Users\MyPC\Documents\Visual Studio 2012\Projects\WebApplication2\WebApplicati
 C:\Users\MyPC\Documents\Visual Studio 2012\Projects\WebApplication2\WebApplication2\bin\WebApplication2.pdb
 C:\Users\MyPC\Documents\Visual Studio 2012\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\MyPC\Documents\Visual Studio 2012\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\MyPC\Desktop\Web\WebBanHang\WebBanHang\WebApplication2\bin\WebApplication2.dll
+C:\Users\MyPC\Desktop\Web\WebBanHang\WebBanHang\WebApplication2\bin\WebApplication2.pdb
+C:\Users\MyPC\Desktop\Web\WebBanHang\WebBanHang\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\MyPC\Desktop\Web\WebBanHang\WebBanHang\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\MyPC\Desktop\Web\WebBanHang\WebBanHang\WebApplication2\obj\Debug\WebBanHang.csprojResolveAssemblyReference.cache
