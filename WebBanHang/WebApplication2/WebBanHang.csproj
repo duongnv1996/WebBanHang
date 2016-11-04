@@ -57,6 +57,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="chinhsuathongtin.html" />
+    <Content Include="chitiet.html" />
+    <Content Include="Chitiet.aspx" />
+    <Content Include="Update.aspx" />
+    <Content Include="DanhMuc.aspx" />
+    <Content Include="DoiMatKhau.aspx" />
+    <Content Include="css\chinhsuathongtin.css" />
+    <Content Include="css\chitiet.css" />
+    <Content Include="css\danhmuc.css" />
+    <Content Include="css\doimatkhau.css" />
+    <Content Include="css\lienhe.css" />
+    <Content Include="LienHe.aspx" />
+    <Content Include="danhmuc.html" />
+    <Content Include="doimatkhau.html" />
+    <Content Include="image\bar_vay.png" />
+    <Content Include="image\tab.png" />
+    <Content Include="lienhe.html" />
+    <Content Include="Vay.aspx" />
     <Content Include="css\default.css" />
     <Content Include="Gioithieu.aspx" />
     <Content Include="Default.aspx" />
@@ -118,6 +136,48 @@
     <Content Include="Item.ascx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chitiet.aspx.cs">
+      <DependentUpon>Chitiet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chitiet.aspx.designer.cs">
+      <DependentUpon>Chitiet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Update.aspx.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Update.aspx.designer.cs">
+      <DependentUpon>Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DanhMuc.aspx.cs">
+      <DependentUpon>DanhMuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DanhMuc.aspx.designer.cs">
+      <DependentUpon>DanhMuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoiMatKhau.aspx.cs">
+      <DependentUpon>DoiMatKhau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhau.aspx.designer.cs">
+      <DependentUpon>DoiMatKhau.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LienHe.aspx.cs">
+      <DependentUpon>LienHe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LienHe.aspx.designer.cs">
+      <DependentUpon>LienHe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vay.aspx.cs">
+      <DependentUpon>Vay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vay.aspx.designer.cs">
+      <DependentUpon>Vay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Gioithieu.aspx.cs">
       <DependentUpon>Gioithieu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
