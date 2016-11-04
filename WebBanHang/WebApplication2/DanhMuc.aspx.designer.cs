@@ -10,15 +10,6 @@
 namespace WebApplication2 {
     
     
-    public partial class WebForm2 {
-        
-        /// <summary>
-        /// WebUserControl1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-      
+    public partial class WebForm1 {
     }
 }

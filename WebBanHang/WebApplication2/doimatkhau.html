@@ -1,19 +1,11 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="WebApplication2.SiteMaster" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-
-
-</head>
-<body>
-    <form id="form1" runat="server">
-        <asp:ContentPlaceHolder ID="head" runat="server">
-       
-            <link href="css/trangchu.css?v=<?=time();?>" rel="stylesheet" type="text/css" />
-             <div id = "header">
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="doimatkhau.css" />
+		<title>Nhaphangquangchau.com - Tin tuc - Trang chu</title>
+		<meta http-equiv = "Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        <div id = "header">
             <div id = "banner">
                 <div id = logo></div>
                 <div id = infomenu>
@@ -31,34 +23,58 @@
         <div id = menu>
             <div id = menumain>
                 <ul>
-                    <li class="menutop"><a href="Default.aspx">TRANG CHỦ</a></li>
-                    <li><a href="Gioithieu.aspx">GIỚI THIỆU</a></li>
-                    <li><a href="BstMuaXuan.aspx">BST MÙA XUÂN</a></li>
+                    <li class="menutop"><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="#">GIỚI THIỆU</a></li>
+                    <li><a href="#">BST MÙA XUÂN</a></li>
                     <li><a href="#">BST MÙA HÈ</a></li>
                     <li><a href="#">BST MÙA THU</a></li>
-                    <li><a href="Vay.aspx">BST MÙA ĐÔNG</a></li>
+                    <li><a href="#">BST MÙA ĐÔNG</a></li>
                     <li><a href="#">PHỤ KIỆN</a></li>
-                    <li><a href="DanhMuc.aspx">TIN TỨC</a></li>
-                    <li><a href="LienHe.aspx">LIÊN HỆ</a></li>
+                    <li><a href="#">TIN TỨC</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
                 </ul>
             </div>
         </div>
-
-  
-        </asp:ContentPlaceHolder>
-        <div>
-
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-        <div id="root-footer">
-
-            <asp:ContentPlaceHolder ID="ContentmyFooter" runat="server">
-                <asp:Literal ID="Literal1" runat="server">
-            <link href="css/trangchu.css" rel="stylesheet" type="text/css" />
-            
-                     <%-- footer --%>
-                       <div id = bot>
+        <div id = main>
+            <div id = maingioithieu>
+                <div id = infogioithieu></div>
+            </div>
+            <div id = contentmain>
+                <div id = left>
+                    <div id = topdmsp>
+                        <p>DANH MỤC TIN TỨC</p>
+                    </div>
+                    <div id = dmsp>
+                        <ul>
+                            <li><a>Thông tin chung tài khoản</a></li>
+                            <li><a>Chỉnh sửa thông tin</a></li>
+                            <li><a>Đổi mật khẩu</a></li>
+                            <li><a>Quản lý đơn hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id = right>
+                    <div id = gioithieu></div>
+                    <div id = mainright>
+                        <div id = hovaten>
+                            <p class = textviewright>MẬT KHẨU CŨ:</p>
+                            <p class = textviewright>MẬT KHẨU MỚI:</p>
+                            <p class = textviewright>NHẬP LẠI MẬT KHẨU MỚI:</p>
+                        </div>
+                        <div id = inputhovaten>
+                            
+                            <input class = hovaten type="password" name="matkhau">
+                            <input class = hovaten type="password" name="matkhau">
+                            <input class = hovaten type="password" name="matkhau">
+                            
+                            <p>Lưu ý: Các ô có dấu * bắt buộc phải điền thông tin</p>
+                            <button></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id = borderbot>
+            <div id = bot>
                 <div id = footer>
                     <ul id = menufooter1>
                         <li><a href="#">Hỗ trợ khách hàng</a></li>
@@ -109,8 +125,8 @@
                             <p id = p2>0989 613 898</p>
                         </div>
                         <div id = contact3>
-                            <p id = p3>35</p>
-                            <p id = p4>3,495,495</p>
+                            <p id = p1>35</p>
+                            <p id = p2>3,495,495</p>
                         </div>
                     </div>
                     
@@ -135,10 +151,7 @@
                 <p class = textbot2>Địa chỉ: 16 Ngõ 336 Ngọc Lâm Long Biên, Hà Nội, Việt Nam  |  Điện thoại: 043 5535 6666 - Hotline: 0989 613 898 <br>
 Email: viettrung666@gmail.com - Website: www.nhaphangquangchau.com  |  Thiết kế website - Xây dựng website bởi Tất Thành</p>
             </div>
-
-                </asp:Literal>
-            </asp:ContentPlaceHolder>
+            </div>
         </div>
-    </form>
-</body>
+    </body>
 </html>
